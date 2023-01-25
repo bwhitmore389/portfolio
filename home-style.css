@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url(Fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "HindSiliguri";
+    src: url(Fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+    font-family: "HindSiliguri-Regular";
+    src: url(Fonts/HindSiliguri-Regular.ttf);
+}
+
+.content {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.headshot {
+    height: 500px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.bio-column {
+    text-align: left;
+}
+
+.name-intro {
+    font-family: 'HindSiliguri-Regular';
+    font-size: 65px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.title-intro {
+    font-family: 'HindSiliguri';
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile {
+    font-family: 'HindSiliguri';
+    font-size: 21px;
+}
+
+.res-btn, .prj-btn, .ctc-btn {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 15px;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 0.4s, border-color 0.4s, font-weight 0.4s;
+    font-family: 'HindSiliguri';
+    font-size: 22px;
+}
+
+.res-btn:hover, .prj-btn:hover, .ctc-btn:hover {
+    background-color: white;
+    border-color: white;
+    font-weight: 900;
+}
+
+.res-btn {
+    margin-left: 18px;
+    border-width: 2px;
+    background-color: rgb(155, 198, 233);
+}
+
+.prj-btn {
+    border-width: 2px;
+    background-color: rgb(141, 233, 157);
+}
+
+.ctc-btn {
+    border-width: 2px;
+    background-color: rgb(233, 216, 141);
+}

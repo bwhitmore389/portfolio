@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url(Fonts/WorkSans-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "HindSiliguri";
+    src: url(Fonts/HindSiliguri-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: "HindSiliguri-Regular";
+    src: url(Fonts/HindSiliguri-Regular.ttf);
+  }
+
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    font-family: 'HindSiliguri'
+}
+
+.contact-box {
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgb(205, 229, 248)
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 6px;
+    display: block;
+}
+
+button {
+    background: rgb(205, 229, 248);
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+
+.contact-left h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-left h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td:first-child {
+    padding-top: 20px;
+}
+

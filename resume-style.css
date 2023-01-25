@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url(Fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url(Fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+  font-family: "HindSiliguri-Regular";
+  src: url(Fonts/HindSiliguri-Regular.ttf);
+}
+
+.grid-container {
+  display:grid;
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  max-width: 1200px;
+  transform: translate(-50%);
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.resume-div {
+  margin-top: 15px;
+}
+
+.skills-list {
+  text-align: center;
+}
+
+.skills-list li {
+  display: inline-block;
+  padding: 15px;
+  font-family: 'HindSiliguri';
+  font-size: 22px;
+
+}
+
+.subheading {
+  font-family: 'HindSiliguri';
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.sub-subheading {
+  font-family: 'HindSiliguri';
+  font-size: 25px;
+}
+
+.resume-list {
+  font-family: 'HindSiliguri';
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.resume-list li {
+  margin-left: 50px;
+  font-size: 19px;
+  padding-top: 1px; padding-bottom: 1px;
+}
+
+.list-heading {
+  font-family: 'HindSiliguri';
+  font-size: 23px;
+}
+
+
+
+
+
+
+
+
+

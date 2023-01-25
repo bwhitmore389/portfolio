@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url(Fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url(Fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+  font-family: "HindSiliguri-Regular";
+  src: url(Fonts/HindSiliguri-Regular.ttf);
+}
+
+.grid-container {
+  display:grid;
+  position: absolute;
+  margin-top: 15px;
+  left: 50%;
+  width: 90%;
+  max-width: 1200px;
+  transform: translate(-50%);
+  grid-template-columns: auto auto;
+  padding: 10px;
+  row-gap: 48px;
+  column-gap: 45px;
+}
+  
+  .static {
+    width: 600px;
+    position: absolute;
+    background-color: white;
+   }
+  
+  .static:hover {
+    opacity: 0;
+   }
+  
+  .active {
+    width: 600px;
+  }
+
+  .right-column {
+    margin-top: -23px;
+  }
+
+  .list-heading {
+    font-family: 'HindSiliguri';
+    font-size: 23px;
+  }
+
+  .project-info-lists {
+    font-family: 'HindSiliguri';
+    font-size: 19px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 0px;
+  }
